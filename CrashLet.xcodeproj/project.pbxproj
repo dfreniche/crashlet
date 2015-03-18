@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		991219A01AB9A4760073F783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912199F1AB9A4760073F783 /* AppDelegate.swift */; };
+		991219A21AB9A4760073F783 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991219A11AB9A4760073F783 /* Images.xcassets */; };
+		991219A51AB9A4760073F783 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 991219A31AB9A4760073F783 /* MainMenu.xib */; };
+		991219B11AB9A4760073F783 /* CrashLetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991219B01AB9A4760073F783 /* CrashLetTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		991219AB1AB9A4760073F783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 991219921AB9A4750073F783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 991219991AB9A4760073F783;
+			remoteInfo = CrashLet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9912199A1AB9A4760073F783 /* CrashLet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashLet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9912199E1AB9A4760073F783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9912199F1AB9A4760073F783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		991219A11AB9A4760073F783 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		991219A41AB9A4760073F783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		991219AA1AB9A4760073F783 /* CrashLetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrashLetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		991219AF1AB9A4760073F783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		991219B01AB9A4760073F783 /* CrashLetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashLetTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		991219971AB9A4760073F783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991219A71AB9A4760073F783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		991219911AB9A4750073F783 = {
+			isa = PBXGroup;
+			children = (
+				9912199C1AB9A4760073F783 /* CrashLet */,
+				991219AD1AB9A4760073F783 /* CrashLetTests */,
+				9912199B1AB9A4760073F783 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9912199B1AB9A4760073F783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9912199A1AB9A4760073F783 /* CrashLet.app */,
+				991219AA1AB9A4760073F783 /* CrashLetTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9912199C1AB9A4760073F783 /* CrashLet */ = {
+			isa = PBXGroup;
+			children = (
+				9912199F1AB9A4760073F783 /* AppDelegate.swift */,
+				991219A11AB9A4760073F783 /* Images.xcassets */,
+				991219A31AB9A4760073F783 /* MainMenu.xib */,
+				9912199D1AB9A4760073F783 /* Supporting Files */,
+			);
+			path = CrashLet;
+			sourceTree = "<group>";
+		};
+		9912199D1AB9A4760073F783 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9912199E1AB9A4760073F783 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		991219AD1AB9A4760073F783 /* CrashLetTests */ = {
+			isa = PBXGroup;
+			children = (
+				991219B01AB9A4760073F783 /* CrashLetTests.swift */,
+				991219AE1AB9A4760073F783 /* Supporting Files */,
+			);
+			path = CrashLetTests;
+			sourceTree = "<group>";
+		};
+		991219AE1AB9A4760073F783 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				991219AF1AB9A4760073F783 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		991219991AB9A4760073F783 /* CrashLet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991219B41AB9A4760073F783 /* Build configuration list for PBXNativeTarget "CrashLet" */;
+			buildPhases = (
+				991219961AB9A4760073F783 /* Sources */,
+				991219971AB9A4760073F783 /* Frameworks */,
+				991219981AB9A4760073F783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrashLet;
+			productName = CrashLet;
+			productReference = 9912199A1AB9A4760073F783 /* CrashLet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		991219A91AB9A4760073F783 /* CrashLetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 991219B71AB9A4760073F783 /* Build configuration list for PBXNativeTarget "CrashLetTests" */;
+			buildPhases = (
+				991219A61AB9A4760073F783 /* Sources */,
+				991219A71AB9A4760073F783 /* Frameworks */,
+				991219A81AB9A4760073F783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				991219AC1AB9A4760073F783 /* PBXTargetDependency */,
+			);
+			name = CrashLetTests;
+			productName = CrashLetTests;
+			productReference = 991219AA1AB9A4760073F783 /* CrashLetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		991219921AB9A4750073F783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Freniche;
+				TargetAttributes = {
+					991219991AB9A4760073F783 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					991219A91AB9A4760073F783 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 991219991AB9A4760073F783;
+					};
+				};
+			};
+			buildConfigurationList = 991219951AB9A4750073F783 /* Build configuration list for PBXProject "CrashLet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 991219911AB9A4750073F783;
+			productRefGroup = 9912199B1AB9A4760073F783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991219991AB9A4760073F783 /* CrashLet */,
+				991219A91AB9A4760073F783 /* CrashLetTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		991219981AB9A4760073F783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991219A21AB9A4760073F783 /* Images.xcassets in Resources */,
+				991219A51AB9A4760073F783 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991219A81AB9A4760073F783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		991219961AB9A4760073F783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991219A01AB9A4760073F783 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		991219A61AB9A4760073F783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				991219B11AB9A4760073F783 /* CrashLetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		991219AC1AB9A4760073F783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 991219991AB9A4760073F783 /* CrashLet */;
+			targetProxy = 991219AB1AB9A4760073F783 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		991219A31AB9A4760073F783 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				991219A41AB9A4760073F783 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		991219B21AB9A4760073F783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		991219B31AB9A4760073F783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		991219B51AB9A4760073F783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CrashLet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		991219B61AB9A4760073F783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CrashLet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		991219B81AB9A4760073F783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrashLetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrashLet.app/Contents/MacOS/CrashLet";
+			};
+			name = Debug;
+		};
+		991219B91AB9A4760073F783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CrashLetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrashLet.app/Contents/MacOS/CrashLet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		991219951AB9A4750073F783 /* Build configuration list for PBXProject "CrashLet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991219B21AB9A4760073F783 /* Debug */,
+				991219B31AB9A4760073F783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		991219B41AB9A4760073F783 /* Build configuration list for PBXNativeTarget "CrashLet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991219B51AB9A4760073F783 /* Debug */,
+				991219B61AB9A4760073F783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		991219B71AB9A4760073F783 /* Build configuration list for PBXNativeTarget "CrashLetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991219B81AB9A4760073F783 /* Debug */,
+				991219B91AB9A4760073F783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 991219921AB9A4750073F783 /* Project object */;
+}
