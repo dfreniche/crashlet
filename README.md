@@ -14,7 +14,9 @@ _Do you want to listen to music? Crash!_
 
 ## Who's responsible for this
 
-As a researcher in recent, very recent Apple history, [Diego Freniche](http://www.github.com/dfreniche/cv) takes pride in giving you the most accurate Swift crashing emulation experience to date. 
+As a researcher in recent, very recent Apple history, [Diego Freniche](http://www.github.com/dfreniche/cv) takes pride in giving you the most accurate Swift crashing emulation experience to date.
+
+But this was really the result of a quick hack during NSSpain 2015, having big laughs with [Ernesto García](http://www.cocoawithchurros.com), who told me how to make most of the Mac code here. It only took me another 2 years to push this code.
 
 Other fine software projects hosted here are [Objective Doge](https://github.com/dfreniche/objective-doge), such extension of the Objective C language!, Wow!, Very clareness, much coding and Swift examples including [The Star Wars Operators](https://github.com/dfreniche/Playgrounds/blob/master/StarWarsOperators.playground/section-1.swift) 
 
@@ -32,3 +34,7 @@ Feel free to fork this repo, use the code in it or add new features through Pull
 This work is licensed under a MIT license.
 
 No `lldb` compilers where harmed during the writing of CrashLet.
+
+## Attribution
+
+The awesome Poison icon is designed by Roundicons [https://www.flaticon.com/free-icon/poison_196778]()
